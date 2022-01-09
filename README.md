@@ -1,3 +1,53 @@
+<h1> The System has the following features:</h1>
+<ul style="list-style-type: disc;">
+    <li><span style="line-height:107%;font-size:21px;">Mobile responsive</span></li>
+    <li><span style="line-height:107%;font-size:21px;">User management</span></li>
+    <li><span style="line-height:107%;font-size:21px;">Permissions management</span></li>
+    <li><span style="line-height:107%;font-size:21px;">Roles management</span></li>
+    <li><span style="line-height:107%;font-size:21px;">Both Languages (Arabic &amp; English)</span></li>
+    <li><span style="line-height:107%;font-size:21px;">Full CRUD Operations</span></li>
+    <li><span style="line-height:107%;font-size:21px;">Pagination</span></li>
+    <li><span style="line-height:107%;font-size:21px;">Search</span></li>
+      <li><span style="line-height:107%;font-size:21px;">Random seed data</span></li>
+    <li><span style="line-height:107%;font-size:21px;">AJAX Datatables with server-side processing</span></li>
+    <li><span style="line-height:107%;font-size:21px;">Security measures:</span>
+        <ol style="list-style-type: circle;">
+            <li><span style="line-height:107%;">Cross-Site Request Forgery (CSRF) Protection</span></li>
+            <li><span style="line-height:107%;">Injection Attacks</span></li>
+            <li><span style="line-height:107%;">Brute Force Attack</span></li>
+            <li><span style="line-height:107%;">Etc.</span></li>
+        </ol>
+    </li>
+</ul>
+
+
+*************************************************************************************************************
+
+<h1> Deployment:</h1>
+
+1.	Extract the archive and put it in the folder you want
+2.	Run cp .env.example .env file to copy example file to .env
+3.	Then edit your .env file with DB credentials and other settings.
+4.	Run -<b> composer install </b>- command
+5.	Run -<b> php artisan migrate --seed </b>- command.
+6.	Notice: seed is important, because it will create the first admin user for you.
+7.	Run - <b> php artisan key:generate </b> - command.
+
+**************************************************************************************************
+
+<h4> And that's it, go to your domain and login:</h4>
+<h3>Default credentials:</h3>
+<b> Username:</b> rihal@admin.com
+<br>
+<b>Password:</b> password
+
+
+**************************************************************************************************
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
